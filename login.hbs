@@ -1,0 +1,49 @@
+<div>
+  <div class="form-container">
+    <header class="form-header">
+
+      <h1>Login Page</h1>
+
+    </header>
+    <form id="login-form" class="input-form"
+        action= "/users/login"
+        method="POST"
+        enctype="application/x-www-form-urlencoded">
+      <div class="input-group">
+        <label class="tags log-lbl-usname" for="username">Username</label>
+        <input
+          class="text-input log-inpt-uname"
+          id="username"
+          type="text"
+          placeholder="Username"
+          name="username"
+          required
+          />
+      </div>
+      <div class="input-group">
+        <label class="tags log-lbl-passwd" for="password">Password</label>
+        <input
+          class="text-input log-inpt-password"
+          id="passwd"
+          type="password"
+          placeholder="Password"
+          name="password"
+          required
+          />
+      </div>
+      <div class="button-group">
+        <button
+          id="submit"
+          type="submit"
+          class="btn btn-success"
+        >Submit</button>
+        <button id="reset" type="reset" class="btn btn-danger">Reset</button>
+      </div>
+    </form>
+    <div id="make-account">
+      Don't have an account?
+      <a href="/register">Start Here!</a>
+    </div>
+  </div>
+</div>
+</div>

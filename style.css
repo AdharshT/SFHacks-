@@ -1,0 +1,136 @@
+body {
+    font: 18px "Lucida Grande", Helvetica, Arial, sans-serif;
+    border: 3px solid gray;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  
+  input{
+    text-align: center;
+    border-radius: 5px;
+    padding: 13px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+    background-color: bisque;
+    border: 2px solid black;
+    margin-top: 4px
+  }
+  
+  label{
+    color: red;
+    text-decoration: underline;
+  }
+  .homepage{
+    margin: auto;
+    background-color: aqua;
+    width: 300px;
+    padding: 30px;
+  }
+  .loginpage{
+    margin: 0 auto;
+    background-color: blueviolet;
+    width: 300px;
+    padding: 30px;
+  }
+  .registpage{
+    margin: 0 auto;
+    background-color: darkblue;
+    width: 300px;
+    padding: 30px;
+  }
+  .postimage{
+    margin: 0 auto;
+    background-color: darkcyan;
+    width: 300px;
+    padding: 30px;
+  }
+  .viewpost{
+    width: 400px;
+    height: 200px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .nav-items{
+    color: lightblue;
+    background-color: black;
+  }
+  
+  h1 {
+    border: 0px;
+    text-align: center;
+    color: red;
+  }
+  h2 {
+    border: 0px;
+    text-align: center;
+    color: blue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .check{
+    text-align: center;
+  }
+  input[type="checkbox"]{
+    cursor: pointer;
+    width: 60px;
+    position: relative;
+  }
+  
+  .invalid-text{
+    outline: solid red
+  }
+  
+  .valid-text{
+    outline: solid blue
+  }
+  
+  .btn-success{
+    color: white;
+    background-color: green;
+  }
+  
+  .btn-danger{
+    color: white;
+    background-color: red;
+  }
+  .page-banner{
+    color: white;
+    background-color: black;
+    text-align: center;
+    font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .fa-user-box-button{
+    color: white;
+    background-color: black;
+  }
+  
+  .fa-comment{
+    background-color: bisque;
+    color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+  }
+  
+  h3{
+    border: 0px;
+    text-align: center;
+    color: darkgreen;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .fa-search{
+    background-color: grey;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
